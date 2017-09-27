@@ -1,3 +1,23 @@
+
+//  ----- ZADANIE 9.6 -----
+
+var list = document.getElementById('list'),
+    //add = document.getElementById('addElem');
+    add = document.getElementsByTagName('button');
+
+add[0].addEventListener('click', function() {
+    var element = document.createElement('li');
+    element.innerHTML = 'item ' + document.getElementsByTagName('li').length;
+    list.appendChild(element);
+});
+
+
+
+
+
+
+
+/*
 //  ----- ZADANIE 9.5 -----
 
 var classButton = document.getElementsByClassName('button');
@@ -5,7 +25,7 @@ var classButton = document.getElementsByClassName('button');
 for (i=0; i < classButton.length; i++) {
   alert (classButton[i].innerText);
 }
-
+*/
 
 
 
