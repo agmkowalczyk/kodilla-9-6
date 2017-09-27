@@ -1,3 +1,16 @@
+//  ----- ZADANIE 9.5 -----
+
+var classButton = document.getElementsByClassName('button');
+
+for (i=0; i < classButton.length; i++) {
+  alert (classButton[i].innerText);
+}
+
+
+
+
+
+/*
 //  ----- ZADANIE 9.4 -----
 drawTree(6);
 
@@ -10,7 +23,7 @@ function drawTree(rows) {
    console.log(star); 
   }
 }
-
+*/
 
 
 /*
